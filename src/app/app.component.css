@@ -1,0 +1,7 @@
+.container-poke{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 1rem;
+}
