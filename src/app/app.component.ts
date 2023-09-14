@@ -9,7 +9,7 @@ import { PokeService } from './services/poke.service';
 export class AppComponent implements OnInit {
   title = 'poke-api';
   pokemonList: any;
-  searchText: string = '';
+  searchText = '';
 
   constructor(private pokeService: PokeService) { }
 
